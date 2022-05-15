@@ -1,0 +1,11 @@
+.input {
+  background-color: #ccc;
+  min-width: 320px;
+}
+
+.input input {
+  border: 0px;
+  width: 100%;
+  background-color: #F4F4F4;
+  padding: 8px 18px;
+}

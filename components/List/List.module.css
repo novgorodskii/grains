@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.item {
+  display: flex;
+  width: 320px;
+}

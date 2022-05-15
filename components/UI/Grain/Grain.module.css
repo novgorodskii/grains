@@ -1,0 +1,20 @@
+.grain {
+  color: #fff;
+  padding: 18px;
+  height: 48px;
+  background: #054ada;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  opacity: .9;
+  transition: all .3s;
+  width: calc(100% - 50px);
+}
+
+.grain:hover {
+  opacity: 1;
+}

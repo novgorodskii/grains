@@ -1,0 +1,15 @@
+.sandbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.sandbox h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.item {
+  display: flex;
+  width: 320px;
+}

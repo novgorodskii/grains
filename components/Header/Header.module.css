@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  display: flex;
+  background: #F4F4F4;
+  padding: 20px;
+  position: relative;
+  align-items: center;
+}
+
+.logo {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  position: relative;
+}
