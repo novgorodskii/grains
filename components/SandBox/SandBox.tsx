@@ -18,9 +18,7 @@ const Item = ({item} : {item: GrainModel}) => {
   return (
     <div className={styles.item}>
       <Grain item={item} />
-      <div onClick={() => {
-        deleteGrain && deleteGrain(item.id)
-      }}>
+      <div onClick={() => deleteGrain && deleteGrain(item.id)}>
         <Icon bg={'#F4F4F4'} img={'/icons/atoms/minus.svg'}/>
       </div>
     </div>

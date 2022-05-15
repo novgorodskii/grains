@@ -1,3 +1,38 @@
 .set {
   display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  min-width: 320px;
+}
+
+.set h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.item {
+  display: flex;
+  width: 320px;
+}
+
+.set h3 {
+  font-size: 24px;
+  background-color: #a8a8a8;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 2px;
+  width: calc(100% - 50px);
+}
+
+.set .list {
+  margin-bottom: 24px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
 }
